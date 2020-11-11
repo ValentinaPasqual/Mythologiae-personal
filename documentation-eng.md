@@ -22,8 +22,6 @@ For more information about this approach, please see "Daquino, M., Pasqual, V., 
 
 ![image info](datamodel-imgs/struttura_mima_np.svg)  
 
-
-
 Approach to datamodelling activity:
 * Design of the domain
 * input csv cleaning into computable python format to generate rdf
