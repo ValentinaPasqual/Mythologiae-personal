@@ -12,16 +12,17 @@
       - [WHEN](#when)
       - [WHO](#who)
 
+## Introduction
+In this section is briefly presented how MIMA (Documentation) has been reused and integrated to satisfy Mythologiae dataset representational requirements and peculiarities.
+In the following sections is presented a brief overview of the 4 layered approach used to store and enhance Mythologiae data. 
+For more information about this approach, please see "Daquino, M., Pasqual, V., Tomasi, F. “Knowledge Representation of digital Hermeneutics of archival and literary Sources.”.
+
 ## Layered Approach
+(...)
 
 ![image info](datamodel-imgs/struttura_mima_np.svg)  
 
-The figure below represents layers 0 (factual data) and 1 (assertions) of the datamodel. All class and properties in the gray zone represent the assertion graph (layer 1) and all the other class and properties in white background represent factual data (layer 0). In particular, in level 0 are stored information about cultural objects and works descriptive metadata. In level 1 are stored the connections betweeen cultural objects representation (e.g. depicted scenes, conceptual value of the item), categories to which the cultural object is referred (e.g. the scene or theme depicted in the item), works and citations. For example, for what concerns the following scenario "The cultural object X represents the category Y, which is mentioned in the citation Z and the work W", descriptive metadata about works and cultural object can be stored in factual data graph (level 1), while the association between X, Y and Z is stored in assertion A. 
 
-![image info](datamodel-imgs/layer0_layer1.svg)  
-
-For the sake of simplicity, Mythologiae Datamodel has been tested in modules. Those modules are named 'What', 'Where', 'When', 'Where' - the four dimensions created by the reuse of an event-centric backbone ontology (FRBRoo). It is worth to underline that this research main interest is to investigate the 'What' dimension, taking into consideration how it interacts with the other three modules. 
-In particular, the 'What' dimension represents how citations mentioning works and items are linked together through the use of conceptual categories. 'When', 'Where' and 'Who' can be seen as three modules of addition information aiming to investigate in toto the 'What' dimension. 
 
 Approach to datamodelling activity:
 * Design of the domain
@@ -38,6 +39,13 @@ Approach to datamodelling activity:
 This process has been performed sequentially and on each module and submodule.
 
 ### Layers 0 and 1: factual data and assertions 
+
+The figure below represents layers 0 (factual data) and 1 (assertions) of the datamodel. All class and properties in the gray zone represent the assertion graph (layer 1) and all the other class and properties in white background represent factual data (layer 0). In particular, in level 0 are stored information about cultural objects and works descriptive metadata. In level 1 are stored the connections betweeen cultural objects representation (e.g. depicted scenes, conceptual value of the item), categories to which the cultural object is referred (e.g. the scene or theme depicted in the item), works and citations. For example, for what concerns the following scenario "The cultural object X represents the category Y, which is mentioned in the citation Z and the work W", descriptive metadata about works and cultural object can be stored in factual data graph (level 1), while the association between X, Y and Z is stored in assertion A. 
+
+![image info](datamodel-imgs/layer0_layer1.svg)  
+
+For the sake of simplicity, Mythologiae Datamodel has been tested in modules. Those modules are named 'What', 'Where', 'When', 'Where' - the four dimensions created by the reuse of an event-centric backbone ontology (FRBRoo). It is worth to underline that this research main interest is to investigate the 'What' dimension, taking into consideration how it interacts with the other three modules. 
+In particular, the 'What' dimension represents how citations mentioning works and items are linked together through the use of conceptual categories. 'When', 'Where' and 'Who' can be seen as three modules of addition information aiming to investigate in toto the 'What' dimension. 
 
 #### WHAT
 ##### Items
