@@ -18,7 +18,12 @@ In the following sections is presented a brief overview of the 4 layered approac
 For more information about this approach, please see "Daquino, M., Pasqual, V., Tomasi, F. “Knowledge Representation of digital Hermeneutics of archival and literary Sources.”.
 
 ## Layered Approach
-(...)
+The so called "layered approach" cosists in reusing <a href="http://nanopub.org/wordpress/">Nanopublication</a> structure to encode sets of information descibing each cultural object in Mythologiae collection. Nanopublication datamodel, as shown in the figure below is organised in 3 interconnected graphs: the assertion, provenance and publication information graphs. A fourth layer (layer 0 or factual data graph) has been added to cover the entire domain.
+Specifically, each layer (graph) stores a particular type of metadata.
+* Layer 0. Factual data that are part of scholars’ background knowledge. In Mythologiae case we talk about descriptional metadata of cultural objects and literary works.
+* Layer 1. The scope of scholars’ questionable statements. In Mythologiae specific case we talk about the hermeneutic analysis and cultural object-literary source association made by the experts.
+* Layer 2. Context information for hypotheses assessment. In Mythologiae case we refer to the interpretative acts that lay behind each expert assertion.
+* Layer 3. Provenance information of the mining processes. In Mythologiae case we encoded a few information about the RDF-dataset publication.
 
 ![image info](datamodel-imgs/struttura_mima_np.svg)  
 
