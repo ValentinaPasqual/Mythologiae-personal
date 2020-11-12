@@ -100,7 +100,7 @@ The following figures describes classes and properties reused in provenance grap
 ![image info](datamodel-imgs/layer2.svg)
 
 ### Layer 3: Publication Info
-Finally, in publication information graph are stored the information about the publication of each nanopublication. 
+Finally, in publication information graph are stored the information about the publication of each nanopublication. Information in this layer answers the questions such as: Who is responsible for the machine-readable version of the statement? When was it extracted? It represents the meta-context of a statement that has been automatically or semi-automatically generated.
 
 ![image info](datamodel-imgs/layer3.svg)
 
