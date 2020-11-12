@@ -13,9 +13,9 @@
       - [WHO](#who)
 
 ## Introduction
-In this section is briefly presented how MIMA (Documentation) has been reused and integrated to satisfy Mythologiae dataset representational requirements and peculiarities.
+In this section is briefly presented how <a href="https://mima-data-model.github.io/mima-documentation/">MIMA (Documentation)</a> has been reused and integrated to satisfy Mythologiae dataset representational requirements and peculiarities.
 In the following sections is presented a brief overview of the 4 layered approach used to store and enhance Mythologiae data. 
-For more information about this approach, please see "Daquino, M., Pasqual, V., Tomasi, F. “Knowledge Representation of digital Hermeneutics of archival and literary Sources.”.
+For more information about this approach, please see "Daquino, M., Pasqual, V., Tomasi, F. “Knowledge Representation of digital Hermeneutics of archival and literary Sources.”
 
 ## Layered Approach
 The so called "layered approach" cosists in reusing <a href="http://nanopub.org/wordpress/">Nanopublication</a> structure to encode sets of information descibing each cultural object in Mythologiae collection. Nanopublication datamodel, as shown in the figure below is organised in 3 interconnected graphs: the assertion, provenance and publication information graphs. A fourth layer (layer 0 or factual data graph) has been added to cover the entire domain.
