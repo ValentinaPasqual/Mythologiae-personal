@@ -1,16 +1,18 @@
 # Mythologiae Datamodel 
 
-- [Mythologiae Datamodel](#mythologiae-datamodel)
-  * [Layered Approach](#layered-approach)
-    + [Layers 0 and 1](#layers-0-and-1)
-      - [WHAT](#what)
-        * [Items](#items)
-        * [Citations](#citations)
-        * [Works](#works)
-        * [Conceptual Categories](#conceptual-categories)
-      - [WHERE](#where)
-      - [WHEN](#when)
-      - [WHO](#who)
+- [Introduction](#introduction)
+- [Layered Approach](#layered-approach)
+  * [Layers 0 and 1: factual data and assertions](#layers-0-and-1--factual-data-and-assertions)
+    + [WHAT](#what)
+      - [Items](#items)
+      - [Citations](#citations)
+      - [Works](#works)
+      - [Conceptual Categories](#conceptual-categories)
+    + [WHERE](#where)
+    + [WHEN](#when)
+    + [WHO](#who)
+  * [Layer 2: Provenance](#layer-2--provenance)
+  * [Layer 3: Publication Info](#layer-3--publication-info)
 
 ## Introduction
 In this section is briefly presented how <a href="https://mima-data-model.github.io/mima-documentation/">MIMA (Documentation)</a> has been reused and integrated to satisfy Mythologiae dataset representational requirements and peculiarities.
