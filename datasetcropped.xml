@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:ns1="http://www.w3.org/2002/07/owl#"
+   xmlns:ns10="https://www.wikidata.org/wiki/"
+   xmlns:ns2="http://purl.org/dc/terms/"
+   xmlns:ns3="http://erlangen-crm.org/efrbroo/"
+   xmlns:ns4="http://purl.org/net/hucit#"
+   xmlns:ns5="http://erlangen-crm.org/current/"
+   xmlns:ns6="http://purl.org/emmedi/hico/"
+   xmlns:ns7="http://www.w3.org/ns/prov#"
+   xmlns:ns8="http://www.nanopub.org/nschema#"
+   xmlns:ns9="http://schema.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>  
+
+
+<rdf:Description rdf:about="https://raw.githubusercontent.com/ValentinaPasqual/Mythologiae-personal/master/datasetcropped.xml#pubInfo2623">
+    <rdf:type rdf:resource="http://www.nanopub.org/nschema#PublicationInfo"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/ValentinaPasqual/Mythologiae-personal/master/datasetcropped.xml#provenance2764">
+    <rdf:type rdf:resource="http://www.nanopub.org/nschema#Provenance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/ValentinaPasqual/Mythologiae-personal/master/datasetcropped.xml#provenance3818">
+    <rdf:type rdf:resource="http://www.nanopub.org/nschema#Provenance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/ValentinaPasqual/Mythologiae-personal/master/datasetcropped.xml#provenance816">
+    <rdf:type rdf:resource="http://www.nanopub.org/nschema#Provenance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://raw.githubusercontent.com/ValentinaPasqual/Mythologiae-personal/master/datasetcropped.xml#pubInfo2820">
+    <rdf:type rdf:resource="http://www.nanopub.org/nschema#PublicationInfo"/>
+  </rdf:Description>
+</rdf:RDF>
+
